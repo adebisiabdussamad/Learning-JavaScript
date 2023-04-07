@@ -6,8 +6,15 @@
 
 // 1) Create three new variables:
 //    - A variable that stores the name of an online course of your choice
+let onlineCourseName = '100daysOfCode';
 //    - A variable that stores the price of that course
+let onlineCoursePrice = '$400';
 //    - A variable that stores the three main goals that you have, when taking this course
+let onlineCourseMainGoals = [
+  'Understanding the concepts of JavaScript',
+  'Learning Skills to aid me building better and dynamic websites',
+  'Becoming a better Web developer'
+];
 // 2) Output ("alert") the three variable values
 // 3) Try "grouping" the three variables together and still output their values thereafter
 // 4) Also output the second element in your "main goals" variable
