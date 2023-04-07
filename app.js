@@ -1,10 +1,10 @@
 //VARIABLES
 let greetingText = 'Hi my name is Bisi!';
-let userAge = 32;
+let age = 32;
 //alert(greetingText);
 greetingText = 'Yoo, Whats up!!';
 //alert(greetingText);
-//alert(userAge);
+//alert(age);
 
 //arrays
 let hobbies = ['Sports', 'Cooking', 'Reading'];
@@ -27,16 +27,16 @@ let job = {
 //functions
 let totalAdultYears;
 
-function calculateAdultYears() {
+function calculateAdultYears(userAge) {
   return userAge - 18;
 }
 
 //performing Operations
-totalAdultYears = calculateAdultYears();
+totalAdultYears = calculateAdultYears(age);
 alert(totalAdultYears);
 
-userAge = 45;
-totalAdultYears = calculateAdultYears();
+age = 45;
+totalAdultYears = calculateAdultYears(age);
 
 alert(totalAdultYears);
 
