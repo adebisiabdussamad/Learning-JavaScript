@@ -54,5 +54,8 @@ function getMainGoals(array, arrayIndex) {
 }
 // 6) Execute your custom command from (5) and output ("alert") the result
 
-let thirdGoals = getMainGoals(onlineCourse.mainGoals, 2);
-alert(thirdGoals);
+let thirdGoal = getMainGoals(onlineCourse.mainGoals, 2);
+alert(thirdGoal);
+
+let firstGoal = getMainGoals(onlineCourse.mainGoals, 0);
+alert(firstGoal);
