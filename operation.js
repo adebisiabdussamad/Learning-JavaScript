@@ -28,3 +28,8 @@ console.log('Ade' + '' + 'Bisi');
 let userName = 'Adebisi';
 console.log(userName.length);
 console.log(userName.toUpperCase());
+
+//Array Operations
+
+let hobbies = ['Cooking', 'Reading'];
+console.log(hobbies.length);
