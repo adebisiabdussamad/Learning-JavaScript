@@ -33,10 +33,18 @@ function calculateAdultYears(userAge) {
 
 //performing Operations
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+console.log(totalAdultYears);
 
 age = 45;
 totalAdultYears = calculateAdultYears(age);
 
-alert(totalAdultYears);
+console.log(totalAdultYears);
 
+let person = {
+  name: 'Bisi', //Property-variables in an object
+  greet() {
+    console.log('Hello!');//Method-functions in an object
+  }
+};
+
+person.greet();
