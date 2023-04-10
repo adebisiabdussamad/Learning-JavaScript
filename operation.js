@@ -22,3 +22,9 @@ console.log(result);
 //Strings Operations
 
 console.log('Ade' + '' + 'Bisi');
+
+//Strings Method
+
+let userName = 'Adebisi';
+console.log(userName.length);
+console.log(userName.toUpperCase());
