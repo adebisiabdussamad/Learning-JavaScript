@@ -18,3 +18,7 @@ result += 5; //result = result + 5;
 result -= 5; //result = result - 5;
 
 console.log(result);
+
+//Strings Operations
+
+console.log('Ade' + '' + 'Bisi');
